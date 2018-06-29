@@ -1,0 +1,44 @@
+
+#title{
+  font-size: 18px;
+  background-color: rgba(0, 48, 255, 0.63);
+}
+#author{
+  background-color: rgba(0, 48, 255, 0.63);
+}
+#happiness {
+    transition: transform .2s; /* Animation */
+}
+#happiness:hover {
+    transform: scale(1.05); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+#weight {
+    transition: transform .2s; /* Animation */
+    float: left;
+}
+#weight_section {
+  text-align: center;
+  vertical-align: middle;
+}
+#weight:hover {
+    transform: scale(1.05); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+#sleep {
+    transition: transform .2s; /* Animation */
+}
+#sleep:hover {
+    transform: scale(1.05); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+#nutiriton {
+    transition: transform .2s; /* Animation */
+    float: right;
+}
+#nutrition:hover {
+    transform: scale(1.05); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+#stress {
+    transition: transform .2s; /* Animation */
+}
+#stress:hover {
+    transform: scale(1.05); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
